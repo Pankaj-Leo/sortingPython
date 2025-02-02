@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41587739-e1b4-4181-bf60-99dafa0b1897" name="Changes" comment="LL py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
+    "Python.BPlusTree.executor": "Run",
+    "Python.BTreeNode.executor": "Run",
     "Python.BinarySearchTree.executor": "Run",
     "Python.BinaryTree.executor": "Run",
     "Python.DoublyLinkedList.executor": "Run",
@@ -69,6 +70,8 @@
     "Python.Graph_DFS.executor": "Run",
     "Python.HashTable.executor": "Run",
     "Python.LinkedList.executor": "Run",
+    "Python.RedBlackTree.executor": "Run",
+    "Python.SegmentTree.executor": "Run",
     "Python.Selection.executor": "Run",
     "Python.Stack.executor": "Run",
     "Python.bubbleSort.executor": "Run",
@@ -87,7 +90,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "aws",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -133,7 +136,8 @@
       <workItem from="1738199750625" duration="897000" />
       <workItem from="1738265701192" duration="38000" />
       <workItem from="1738353796055" duration="622000" />
-      <workItem from="1738355480904" duration="20396000" />
+      <workItem from="1738355480904" duration="20613000" />
+      <workItem from="1738498674387" duration="5103000" />
     </task>
     <task id="LOCAL-00001" summary="Bubble Sort">
       <option name="closed" value="true" />
@@ -183,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732820086378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LL py">
+      <option name="closed" value="true" />
+      <created>1738462950800</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738462950800</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,10 +214,14 @@
     <SUITE FILE_PATH="coverage/sorting$bubbleSort.coverage" NAME="bubbleSort Coverage Results" MODIFIED="1731376784131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1732561254552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1732819754861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
+    <SUITE FILE_PATH="coverage/sorting$SegmentTree.coverage" NAME="SegmentTree Coverage Results" MODIFIED="1738533435923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/sorting$BinarySearchTree.coverage" NAME="BinarySearchTree Coverage Results" MODIFIED="1737927788717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
+    <SUITE FILE_PATH="coverage/sorting$BPlusTree.coverage" NAME="BPlusTree Coverage Results" MODIFIED="1738533395052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/sorting$DoublyLinkedList.coverage" NAME="DoublyLinkedList Coverage Results" MODIFIED="1732588009326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$Selection.coverage" NAME="Selection Coverage Results" MODIFIED="1731426277669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$Graph_DFS.coverage" NAME="Graph_DFS Coverage Results" MODIFIED="1738367655045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/sorting$RedBlackTree.coverage" NAME="RedBlackTree Coverage Results" MODIFIED="1738525986582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/sorting$BTreeNode.coverage" NAME="BTreeNode Coverage Results" MODIFIED="1738533346395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$Graph_BFS.coverage" NAME="Graph_BFS Coverage Results" MODIFIED="1738357871351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
   </component>
 </project>
