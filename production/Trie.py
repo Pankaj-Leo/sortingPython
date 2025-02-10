@@ -1,65 +1,60 @@
 class TrieNode:
-    def __init__(self):
-        #Each node stores children in a dictionary
-        #Keys are characters, values are TrieNode reference
+    def __init__ (self):
         self.children = {}
-        #is_end marks if a complete word ends at this node
-        self.is_end= False
+        self.is_end_0f_word = False
 
 class Trie:
-    
     def __init__(self):
-        #The trie always has a root node (empty node).
         self.root = TrieNode()
-    
-    def insert(self, word):
-        """Insert a word into the trie."""
-        node = self.root
-        for char in word:
-            # If the character is not present, create a new node.
-            if char not in node.children:
-                node.children[char] = TrieNode()
-            node = node.children[char]
-        # Mark the end of word.
-        node.is_end = True
-        
-    def search(self, word):
-        """Return True if word is in the trie, else False."""
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                return False
-            node = node.children[char]
-        return node.is_end
-    
-    def search(self, word):
-        """Return True if word is in the trie, else False."""
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                return False
-            node = node.children[char]
-        return node.is_end
-    
-    def startsWith(self, prefix):
-        """Return True if there is any word in the trie that starts with the given prefix."""
-        node = self.root
-        for char in prefix:
-            if char not in node.children:
-                return False
-            node = node.children[char]
-        return True
-    
-# Example usage:
-if __name__ == "__main__":
-    trie = Trie()
-    trie.insert("hello")
-    trie.insert("hell")
-    trie.insert("heaven")
-    trie.insert("goodbye")
 
-    print(trie.search("hello"))    # Output: True
-    print(trie.search("hel"))      # Output: False
-    print(trie.startsWith("he"))   # Output: True
-    print(trie.startsWith("goo"))  # Output: True
-    print(trie.search("good"))     # Output: False
+    def insert (self, word):
+        node = self.root
+        for ch in word:
+            if ch not in node.children:
+                node.children[ch] = TrieNode()
+            node = node.children [ch]
+        node.is_end_of_node = True
+
+    def search(self, word):
+        node = self.root
+        for ch in word:
+            if ch not in node.children:
+                return False
+            node = node.children[ch]
+            return node.is_end_of_node
+
+    def starts_with (self, prefix):
+        node = self.root
+        for ch in prefix:
+            if ch not in node.children:
+                return False
+            node = node.children[ch]
+            return True
+
+    def delete(self, s):
+        def rec(node, s, i): #boolean recursive function
+            if i == len(s): # checking if reached last node of the word to be deleted
+                node.is_end = False # set the end of word as false
+                return len(node.children) == 0  # Can delete this node if no children
+
+            ch = s[i]
+            if ch not in node.children:
+                return False  # Word does not exist
+
+            next_deletion = rec(node.children[ch], s, i + 1)
+            if next_deletion:
+                del node.children[ch]  # Remove child reference
+
+            return next_deletion and not node.is_end and len(node.children) == 0
+
+
+trie = Trie()
+trie.insert("apple")
+trie.insert("app")
+
+print("Search apple:" , trie.search("apple")) #true
+print("Starts with app: ", trie.starts_with("ap")) #true 2
+
+trie.delete ("apple")
+print("Search apple after deletion:", trie.search("apple")) # false
+print("Search app after deletion:", trie.search("app")) # true
