@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41587739-e1b4-4181-bf60-99dafa0b1897" name="Changes" comment="Trees">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Trie.py" beforeDir="false" afterPath="$PROJECT_DIR$/production/Trie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,58 +58,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BPlusTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BTreeNode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BinarySearchTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Graph_BFS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Graph_DFS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HashTable.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Heap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kadane's Algorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RedBlackTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReverseLinkedListIterative.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SegmentTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Selection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Stack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TestNew.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TravellingSalesman_DP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Trie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TrieNode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TwoSumSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_common_items.executor&quot;: &quot;Run&quot;,
-    &quot;Python.knapsack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lengthOfLongestSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maxSubarraySumCircular.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maxSumNonAdjacent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nextGreaterElementClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reverseListRecursive.executor&quot;: &quot;Run&quot;,
-    &quot;Python.subarraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testAss.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leo/Downloads&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleSort.executor": "Run",
+    "Python.BPlusTree.executor": "Run",
+    "Python.BTreeNode.executor": "Run",
+    "Python.BinarySearchTree.executor": "Run",
+    "Python.BinaryTree.executor": "Run",
+    "Python.CutRodSegments.executor": "Run",
+    "Python.Dijkstra.executor": "Run",
+    "Python.DisjointSet.executor": "Run",
+    "Python.DoublyLinkedList.executor": "Run",
+    "Python.Graph_BFS.executor": "Run",
+    "Python.Graph_DFS.executor": "Run",
+    "Python.HashTable.executor": "Run",
+    "Python.Heap.executor": "Run",
+    "Python.Kadane's Algorithm.executor": "Run",
+    "Python.KthLargestFinder.executor": "Run",
+    "Python.LinkedList.executor": "Run",
+    "Python.MergeIntervals.executor": "Run",
+    "Python.Permutations.executor": "Run",
+    "Python.RedBlackTree.executor": "Run",
+    "Python.ReverseLinkedListIterative.executor": "Run",
+    "Python.SegmentTree.executor": "Run",
+    "Python.Selection.executor": "Run",
+    "Python.Stack.executor": "Run",
+    "Python.TestNew.executor": "Run",
+    "Python.TopKElements.executor": "Run",
+    "Python.TravellingSalesman_DP.executor": "Run",
+    "Python.Trie.executor": "Run",
+    "Python.TrieNode.executor": "Run",
+    "Python.TwoSumSorted.executor": "Run",
+    "Python.bubbleSort.executor": "Run",
+    "Python.find_common_items.executor": "Run",
+    "Python.fractional_knapsack.executor": "Run",
+    "Python.knapsack.executor": "Run",
+    "Python.lengthOfLongestSubstring.executor": "Run",
+    "Python.longestCommonSubsequence.executor": "Run",
+    "Python.maxSubarraySumCircular.executor": "Run",
+    "Python.maxSumNonAdjacent.executor": "Run",
+    "Python.nextGreaterElementClass.executor": "Run",
+    "Python.reverseListRecursive.executor": "Run",
+    "Python.subarraySum.executor": "Run",
+    "Python.testAss.executor": "Run",
+    "Python.topological_sort.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/leo/PycharmProjects/DSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$USER_HOME$/Downloads" />
@@ -172,6 +180,17 @@
       <workItem from="1738900077488" duration="7705000" />
       <workItem from="1739059918658" duration="26376000" />
       <workItem from="1739201032252" duration="844000" />
+      <workItem from="1739203043973" duration="140000" />
+      <workItem from="1739203443322" duration="651000" />
+      <workItem from="1739204963482" duration="3025000" />
+      <workItem from="1739363637053" duration="10373000" />
+      <workItem from="1739391643212" duration="1062000" />
+      <workItem from="1739398893013" duration="2811000" />
+      <workItem from="1739478309513" duration="35000" />
+      <workItem from="1739569718194" duration="3470000" />
+      <workItem from="1739733066765" duration="3651000" />
+      <workItem from="1739990419806" duration="7106000" />
+      <workItem from="1740149274149" duration="28796000" />
     </task>
     <task id="LOCAL-00001" summary="Bubble Sort">
       <option name="closed" value="true" />
@@ -245,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738717503984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Trees">
+      <option name="closed" value="true" />
+      <created>1739203059462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739203059462</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +285,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Trees" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$DisjointSet.coverage" NAME="DisjointSet Coverage Results" MODIFIED="1740353357335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$knapsack.coverage" NAME="knapsack Coverage Results" MODIFIED="1738682370177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/sorting$testAss.coverage" NAME="testAss Coverage Results" MODIFIED="1733183496728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$find_common_items.coverage" NAME="find_common_items Coverage Results" MODIFIED="1738079873936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
@@ -265,6 +293,7 @@
     <SUITE FILE_PATH="coverage/sorting$HashTable.coverage" NAME="HashTable Coverage Results" MODIFIED="1738079114957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$bubbleSort.coverage" NAME="bubbleSort Coverage Results" MODIFIED="1731376784131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sorting$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1732561254552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DSA$CutRodSegments.coverage" NAME="CutRodSegments Coverage Results" MODIFIED="1740189087156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$reverseListRecursive.coverage" NAME="reverseListRecursive Coverage Results" MODIFIED="1739147854694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/sorting$BinarySearchTree.coverage" NAME="BinarySearchTree Coverage Results" MODIFIED="1737927788717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/sorting$BPlusTree.coverage" NAME="BPlusTree Coverage Results" MODIFIED="1738533395052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
@@ -283,13 +312,20 @@
     <SUITE FILE_PATH="coverage/DSA$TrieNode.coverage" NAME="TrieNode Coverage Results" MODIFIED="1738612076425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$TwoSumSorted.coverage" NAME="TwoSumSorted Coverage Results" MODIFIED="1738722769633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$TestNew.coverage" NAME="TestNew Coverage Results" MODIFIED="1739114243441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/DSA$longestCommonSubsequence.coverage" NAME="longestCommonSubsequence Coverage Results" MODIFIED="1740318377545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/sorting$BinaryTree.coverage" NAME="BinaryTree Coverage Results" MODIFIED="1737948704112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/DSA$MergeIntervals.coverage" NAME="MergeIntervals Coverage Results" MODIFIED="1740175864917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$subarraySum.coverage" NAME="subarraySum Coverage Results" MODIFIED="1738718572787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/DSA$TopKElements.coverage" NAME="TopKElements Coverage Results" MODIFIED="1740153471602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/DSA$topological_sort.coverage" NAME="topological_sort Coverage Results" MODIFIED="1740346207513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
+    <SUITE FILE_PATH="coverage/DSA$fractional_knapsack.coverage" NAME="fractional_knapsack Coverage Results" MODIFIED="1739570148419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1738612298018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/DSA$Kadane_s_Algorithm.coverage" NAME="Kadane's Algorithm Coverage Results" MODIFIED="1738623301604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/sorting$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1732819754861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
     <SUITE FILE_PATH="coverage/sorting$SegmentTree.coverage" NAME="SegmentTree Coverage Results" MODIFIED="1738533435923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
+    <SUITE FILE_PATH="coverage/DSA$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1739399776088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/DSA$TravellingSalesman_DP.coverage" NAME="TravellingSalesman_DP Coverage Results" MODIFIED="1738715921345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production" />
+    <SUITE FILE_PATH="coverage/DSA$KthLargestFinder.coverage" NAME="KthLargestFinder Coverage Results" MODIFIED="1739994401067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
     <SUITE FILE_PATH="coverage/sorting$Graph_DFS.coverage" NAME="Graph_DFS Coverage Results" MODIFIED="1738367655045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/production/sorting" />
   </component>
 </project>
